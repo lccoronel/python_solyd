@@ -1,14 +1,21 @@
-nomes = ['Lucas', 'Leonardo', 'Lilian', 'Lucinha']
+minha_lista = ['gui', 'joao']
+minha_tupla = ('gui', 'joao')
+meu_dicionario = {'nome': 'Lucas', 'idade': 27}
+meu_conjunto = {'gui', 'biel'}
 
-for nome in nomes:
-  print(nome)
+for valores in meu_dicionario.keys(): 
+  print(valores)
 
-nums_list = range(1, 10)
+for valores in meu_dicionario.values(): 
+  print(valores)
 
-for num in nums_list:
-  print(num)
+meu_dicionario['telefone'] = '11979569018'
+print(meu_dicionario)
 
-i = 0
-while i < 10: 
-  print('valor', i)
-  i += 1 
+
+
+meu_conjunto.add('Maria')
+print(meu_conjunto)
+
+if 'Maria' in meu_conjunto:
+  print('Maria esta no conjunto agora')

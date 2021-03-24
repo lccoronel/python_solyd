@@ -1,18 +1,14 @@
-lista_nomes = ['Joao', 'Lucas', 'Teste']
+nomes = ['Lucas', 'Leonardo', 'Lilian', 'Lucinha']
 
-lista_nomes.append('Guilherme')
-lista_nomes.append('Joao')
+for nome in nomes:
+  print(nome)
 
-lista_nomes.remove('Teste')
+nums_list = range(1, 10)
 
-lista_nomes.insert(1, 'Lilian')
+for num in nums_list:
+  print(num)
 
-lista_nomes[2] = 'Lucas Coronel'
-
-contador_joao = lista_nomes.count('Joao')
-
-print(lista_nomes[0:4])
-print(lista_nomes[2][::-1]) #escrever string ao contrario
-print(contador_joao)
-print(len(lista_nomes))
-
+i = 0
+while i < 10: 
+  print('valor', i)
+  i += 1 
